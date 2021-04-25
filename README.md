@@ -5,7 +5,7 @@ The main project purpose is to display a repository list of any GitHub users. It
 
 ## Technologies
 Project is created with: 
-* HTML5
+* HTML 5
 * CSS
 * JavaScript
 * Bootstrap 4
