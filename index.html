@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Allegro task</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <style>
+            * {
+                box-sizing: border-box;
+                padding: 5px;
+                }
+                </style>
+    </head>
+    <body>
+
+        <div class="container" style="text-align: center;"> 
+            <h1> GitHub users repositories search app </h1>
+          </div>
+
+        <form id="Form" autocomplete="off">        
+            <div class="form-group">
+                <input type="text" class="form-control" id="search" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-success">
+                    Search repositories 
+                </button>
+            </div>
+            <ul id="target-id" class="list-group"></ul>
+        </form>
+     <div id="result"></div>
+    </body>
+    <script src='script.js' ></script>
+</script>
+</html>
